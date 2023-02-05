@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+        <!-- ===== Fontawesome Link ===== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+
+        <!-- ===== JS ===== -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <!-- ===== JS ===== -->
+        <script src="assets/js/script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        
+        <div id="container">
+            <h5>a</h5>
+            <h1>Supérette</h1>
+            <input type="image" id="image" alt="Close" onclick = closeAll() src="https://i.imgur.com/vDcz0Z4.png" width=4% height=6%>
+
+            <div class="bouton">
+
+                <button onclick="SendP()">Valider le panier</button>
+
+            </div>
+            <div class="reset">
+
+                <button onclick="reset()">Vider le Panier</button>
+
+            </div>
+            <div class="Bread">
+                <h2>1st</h2>
+                <button onclick="Send()">Ajouter</button>
+                <p1>Prix : 5$</p1>
+                <img src="https://cdn-icons-png.flaticon.com/512/4241/4241664.png" alt="Pain" width=15% height=15%/>
+                <h6><strong><span id="nbP"></span></strong></h6>
+                <p4>Pain(s) : </p4>
+            </div>
+            <div class="Water">
+                <h3>2st</h3>
+                <button onclick="SendW()">Ajouter</button>
+                <p2>Prix : 5$</p2>
+                <img src="https://i.imgur.com/zzXaI47.png" alt="Water" width=10% height=20%/>
+                <h6><strong><span id="nbW"></span></strong></h6>
+                <p4>Eaux(x) : </p4>
+            </div>
+            <div class="Phone">
+                <h4>2st</h4>
+                <button onclick="SendPho()">Ajouter</button>
+                <p3>Prix : 300$</p3>
+                <img src="https://cdn-icons-png.flaticon.com/512/186/186239.png" alt="Phone" width=10% height=15%/>
+                <h6><strong><span id="nbPh"></span></strong></h6>
+                <p4>Telephone(s) : </p4>
+            </div>
+            
+
+            
+        </div>
+
+    </body>
+</html>
+
